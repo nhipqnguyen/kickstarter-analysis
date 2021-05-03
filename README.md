@@ -13,8 +13,8 @@ Using the given Kickstarter dataset, we visualize campaign outcomes based on the
 * To visualize campaign outcomes based on their launch dates, we first extract the launch years of all campains from their launch dates using Excel YEAR() function.
 * We then create a pivot table to show the outcomes of the successful, failed, and canceled campaigns by months for each parent category and year.
 * Since Louise is only interested the "Theater" category, we filter our pivot table by "Parent Category" to show only outcomes for "Theater".
-* Since we are more interested the successful campaigns, which take the highest percentage in all outcomes for "Theater", we sort the outcomes in descending order so that "successful" is the first column.
-* The last step for this part is to create a chart to visulize the data in our pivot table. Since the outcomes are tracked over a period of time, line chart would be the best option to use.
+* Since we are more interested in the successful campaigns, which take the highest percentage in all outcomes for "Theater", we sort the outcomes in descending order so that "successful" is the first column.
+* The last step for this part is to create a chart to visualize the data in our pivot table. Since the outcomes are tracked over a period of time, line chart would be the best option to use.
 * This is what our "Theater Outcomes based on Launch Dates" line chart looks like:
 !["Theater Outcomes based on Launch Dates" Line Chart](https://github.com/nhipqnguyen/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 	
@@ -26,7 +26,7 @@ Using the given Kickstarter dataset, we visualize campaign outcomes based on the
 !["Plays Outcomes based on Goals" Line Chart](https://github.com/nhipqnguyen/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)  
 
 ### Challenges and Difficulties Encountered
-* When the pivot table for outcomes based on launch date was first created, the row labels were an unwieldy list of dates, months, and years. Therefore, the Group function was used to show just the months of the year.
+* When the pivot table for outcomes based on launch date was first created, the row labels were an unwieldy list of dates, months, and years. To make it easier to analyze the data, the Group function was used to show just the months of the year.
 * For Excel formula COUNTIFS(), each criteria range can only have 1 criteria at a time, making the formula lengthy which can possibly lead to syntax errors.
 
 ## Results
